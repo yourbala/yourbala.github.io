@@ -5,6 +5,7 @@ import Menu from './components/Menu';
 import Footer from './components/Footer';
 import Services from './components/Services';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   const portfolioLinks = [
@@ -116,7 +117,7 @@ function App() {
                 <img
                   className="mx-auto rounded-circle"
                   src="img/team/1.jpg"
-                  alt=""
+                  alt="Smiley face"
                 />
                 <h4>Kay Garland</h4>
                 <p className="text-muted">Lead Designer</p>
@@ -144,7 +145,7 @@ function App() {
                 <img
                   className="mx-auto rounded-circle"
                   src="img/team/2.jpg"
-                  alt=""
+                  alt="Smiley face"
                 />
                 <h4>Larry Parker</h4>
                 <p className="text-muted">Lead Marketer</p>
@@ -172,7 +173,7 @@ function App() {
                 <img
                   className="mx-auto rounded-circle"
                   src="img/team/3.jpg"
-                  alt=""
+                  alt="Smiley face"
                 />
                 <h4>Diana Pertersen</h4>
                 <p className="text-muted">Lead Developer</p>
@@ -216,7 +217,7 @@ function App() {
                 <img
                   className="img-fluid d-block mx-auto"
                   src="img/logos/envato.jpg"
-                  alt=""
+                  alt="Smiley face"
                 />
               </a>
             </div>
@@ -225,7 +226,7 @@ function App() {
                 <img
                   className="img-fluid d-block mx-auto"
                   src="img/logos/designmodo.jpg"
-                  alt=""
+                  alt="Smiley face"
                 />
               </a>
             </div>
@@ -234,7 +235,7 @@ function App() {
                 <img
                   className="img-fluid d-block mx-auto"
                   src="img/logos/themeforest.jpg"
-                  alt=""
+                  alt="Smiley face"
                 />
               </a>
             </div>
@@ -243,7 +244,7 @@ function App() {
                 <img
                   className="img-fluid d-block mx-auto"
                   src="img/logos/creative-market.jpg"
-                  alt=""
+                  alt="Smiley face"
                 />
               </a>
             </div>
@@ -251,43 +252,7 @@ function App() {
         </div>
       </section>
 
-      <section className="bg-light page-section" id="contact">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 text-center">
-              <h2 >Contact Us</h2>
-              <h3 className="section-subheading text-muted">
-                Lorem ipsum dolor sit amet consectetur.
-              </h3>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <form id="contactForm" name="sentMessage">
-                <div className="row">
-                  <div className="col-md-6">
-                    
-                  </div>
-                  <div className="clearfix"></div>
-                  <div className="col-lg-12 text-center">
-                    <div id="success">
-                    <h2 >Address</h2>
-                    <div className="row">
-                    <p className="large text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-                eaque, laboriosam veritatis, quos non quis ad perspiciatis,
-                totam corporis ea, alias ut unde.
-              </p>
-              </div>
-              </div>
-                    
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Contact />
 
       <Footer />
     </div>
