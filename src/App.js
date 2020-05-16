@@ -32,7 +32,7 @@ function App() {
     },
     {
       title: 'Pizza',
-      caption: 'I love pizza!'
+      caption: 'I am fond of pizza!!!!'
     }
   ]
 
