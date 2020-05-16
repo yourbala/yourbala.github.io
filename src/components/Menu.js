@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar,Nav,NavDropdown} from 'react-bootstrap';
+import {Navbar,Nav} from 'react-bootstrap';
 
 const Menu = ({homeUrl}) => {
     return (
@@ -13,15 +13,6 @@ const Menu = ({homeUrl}) => {
                 <Nav.Link href="#about">About</Nav.Link>
                 <Nav.Link href="#team">Team</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
-                {/*
-                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="/">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="/">Another action</NavDropdown.Item>
-                  <NavDropdown.Item href="/">Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="/">Separated link</NavDropdown.Item>
-                </NavDropdown>
-        */}
               </Nav>
            {/*}
               <Form inline>

@@ -29,6 +29,11 @@ const Footer = () =>  {
                     <i className="fa fa-facebook-f"></i>
                   </a>
                 </li>
+                <li className="list-inline-item">
+                  <a href="#">
+                    <i className="fa fa-youtube-play"></i>
+                  </a>
+                </li>
               </ul>
             </div>
             {/*
