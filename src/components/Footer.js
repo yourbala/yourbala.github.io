@@ -30,7 +30,7 @@ const Footer = () =>  {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#">
+                  <a href="https://www.youtube.com/channel/UCO2Xw2wzq6oK8vmWeP2KDww">
                     <i className="fa fa-youtube-play"></i>
                   </a>
                 </li>
